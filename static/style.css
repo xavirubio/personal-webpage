@@ -459,6 +459,15 @@ h6 {
       background: #FF0000;
 }
 
+#gh::before {
+      display: inline-block;
+      border-radius: 100%;
+      height: 4px;
+      width: 4px;
+      margin-right: 6px;
+      background: #24292f;
+}
+
 #th:hover {
       color: #6441A4;
 }
@@ -473,6 +482,10 @@ h6 {
 
 #yt:hover {
       color: #FF0000;
+}
+
+#gh:hover {
+      color: #24292f;
 }
 
 #media, #address {
